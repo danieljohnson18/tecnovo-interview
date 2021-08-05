@@ -69,7 +69,7 @@ class App extends Component {
                 <React.Fragment>
                   <AddUser addTodo={this.addTodo} />
                   <Users
-                    todos={this.state.names}
+                    names={this.state.names}
                     markComplete={this.markComplete}
                     delTodo={this.delTodo}
                   />
