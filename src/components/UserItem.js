@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export class TodoItem extends Component {
+export class UserItem extends Component {
     getStyle = () => {
       return{
           backgorund: '#f4f4f4',
@@ -37,4 +37,4 @@ const btnStyle ={
     float: 'right'
 }
 
-export default TodoItem
+export default UserItem;

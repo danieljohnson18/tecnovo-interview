@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class AddTodo extends Component {
+export class AddUser extends Component {
   state = {
     name: "",
   };
@@ -20,7 +20,7 @@ export class AddTodo extends Component {
           type="text"
           name="name"
           style={{ flex: "10", padding: "5px" }}
-          placeholder="Add Todo ..."
+          placeholder="Add User ..."
           value={this.state.name}
           onChange={this.onChange}
         />
@@ -35,4 +35,4 @@ export class AddTodo extends Component {
   }
 }
 
-export default AddTodo;
+export default AddUser;
